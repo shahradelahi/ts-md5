@@ -7,7 +7,7 @@
 [![Install Size](https://packagephobia.com/badge?p=@se-oss/md5)](https://packagephobia.com/result?p=@se-oss/md5)
 [![Edge Runtime Compatible](https://img.shields.io/badge/edge--runtime-%E2%9C%94%20compatible-black)](https://vercel.com/docs/functions/runtimes/edge)
 
-_@se-oss/md5_ is a MD5 hashing library for JavaScript that works seamlessly in both Node.js and browser environments. It automatically detects the environment and uses the fastest available implementation—up to **50x faster** than other popular libraries.
+_@se-oss/md5_ is a MD5 hashing library for JavaScript that works seamlessly in both Node.js and browser environments. It automatically detects the environment and uses the fastest available implementation, it's up to **50x faster** than other popular libraries.
 
 - [Installation](#-installation)
 - [Usage](#-usage)
@@ -81,6 +81,7 @@ When running in Node.js, `@se-oss/md5` automatically uses the native `node:crypt
 | md5                      | 747,229 ops/sec      | 56 ops/sec        | 516,042 ops/sec      | 16 ops/sec        |
 
 _These benchmarks were run on a standard development machine. Your results may vary._
+
 _Benchmark script: [`src/index.bench.ts`](src/index.bench.ts)_
 
 ## 🤝 Contributing
