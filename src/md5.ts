@@ -68,7 +68,7 @@ const coreMd5 = (message: Uint8Array): Uint8Array => {
   }
 
   // Padding
-  m[l >>> 5] |= 0x80 << l % 32;
+  m[l >>> 5] |= 0x80 << (l % 32);
   m[(((l + 64) >>> 9) << 4) + 14] = l;
 
   for (let i = 0; i < m.length; i += 16) {
