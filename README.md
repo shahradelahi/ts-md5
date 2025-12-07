@@ -76,9 +76,9 @@ When running in Node.js, `@se-oss/md5` automatically uses the native `node:crypt
 
 | Library                  | Short String Hashing | Long String (1MB) | Short Buffer Hashing | Long Buffer (1MB) |
 | ------------------------ | -------------------- | ----------------- | -------------------- | ----------------- |
-| **@se-oss/md5 (Native)** | _919,060.58 ops/sec_ | _682.78 ops/sec_  | 622,662.89 ops/sec   | _849.93 ops/sec_  |
-| **@se-oss/md5**          | 874,791.00 ops/sec   | 117.92 ops/sec    | _685,003.76 ops/sec_ | 71.9144 ops/sec   |
-| md5                      | 747,229.05 ops/sec   | 56.4787 ops/sec   | 516,042.41 ops/sec   | 16.3902 ops/sec   |
+| **@se-oss/md5 (Native)** | _919,060 ops/sec_    | _682 ops/sec_     | 622,662 ops/sec      | _849 ops/sec_     |
+| **@se-oss/md5**          | 874,791 ops/sec      | 117 ops/sec       | _685,003 ops/sec_    | 71 ops/sec        |
+| md5                      | 747,229 ops/sec      | 56 ops/sec        | 516,042 ops/sec      | 16 ops/sec        |
 
 _These benchmarks were run on a standard development machine. Your results may vary._
 _Benchmark script: [`src/index.bench.ts`](src/index.bench.ts)_
