@@ -1,6 +1,6 @@
 {
   "name": "@se-oss/md5",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple, zero-dependency MD5 hashing library for Node.js and browsers. Automatically uses native crypto in Node.js for performance.",
   "keywords": [
     "md5",
