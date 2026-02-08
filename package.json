@@ -40,7 +40,8 @@
   "scripts": {
     "bench": "vitest bench --run",
     "build": "pnpm typecheck && tsup",
-    "clean": "git clean -dfx node_modules dist .tsbuildinfo",
+    "ci:publish": "changeset publish",
+    "clean": "git clean -dfx \"**/node_modules/**\" dist .tsbuildinfo",
     "dev": "tsup --watch",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
@@ -52,6 +53,7 @@
   },
   "prettier": "@shahrad/prettier-config",
   "devDependencies": {
+    "@changesets/cli": "^2.29.8",
     "@edge-runtime/vm": "^5.0.0",
     "@se-oss/delay": "^1.0.0",
     "@shahrad/eslint-config": "^1.0.1",
