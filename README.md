@@ -82,7 +82,7 @@ When running in Node.js, `@se-oss/md5` automatically uses the native `node:crypt
 
 _These benchmarks were run on a standard development machine. Your results may vary._
 
-_Benchmark script: [`src/index.bench.ts`](src/index.bench.ts)_
+_Benchmark script: [`src/index.bench.ts`](bench/index.bench.ts)_
 
 ## 🤝 Contributing
 
