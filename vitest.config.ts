@@ -6,7 +6,7 @@ export default defineConfig({
     environment: 'edge-runtime',
     testTimeout: 10000,
     globals: true,
-    exclude: ['**/node_modules/**', '**/dist/**'],
+    exclude: ['**/node_modules/**', '**/dist/**', '**/bench/**'],
   },
   resolve: {
     alias: {

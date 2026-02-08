@@ -1,8 +1,7 @@
+import nativeMd5 from '@se-oss/md5/node';
+import ourMd5 from '@se-oss/md5/browser';
 import theirMd5 from 'md5';
 import { bench, describe } from 'vitest';
-
-import { default as ourMd5 } from './md5';
-import nativeMd5 from './native';
 
 describe('md5', () => {
   const shortString = 'hello world';
