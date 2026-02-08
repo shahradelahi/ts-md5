@@ -1,14 +1,6 @@
-import type { Hash, HashOptions } from 'node:crypto';
+import { createHash } from 'node:crypto';
 
 import type { Md5, Message, Options } from './typings';
-
-let createHash: (algorithm: string, options?: HashOptions) => Hash;
-try {
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  createHash = require('node:crypto').createHash;
-} catch {
-  /* noop */
-}
 
 /**
  * Calculates the MD5 hash using Node.js's native `crypto` module.
